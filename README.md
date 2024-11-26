@@ -1,9 +1,9 @@
 #  Fantasy Baseball Auction Draft Simulation
 
 ## Overview
-This project simulates a NFBC Draft Champions fantasy baseball season (15-team league) using Monte Carlo methods. 
+This project simulates an NFBC Draft Champions fantasy baseball season (15-team league) using Monte Carlo methods. 
 It evaluates team performance based on the roto scoring system. The purpose of the simulation is 
-use custom preseason category weights to experiment with draft strategies.
+to use custom preseason category weights to experiment with draft strategies.
 
 ## Features
 * Custom Weighting: Simulate strategies with user-defined weights for statistical categories.
@@ -76,9 +76,9 @@ python -m unittest test_fantasy_baseball_simulation.py
 
 ## Future Enhancements
 * Incorporate ADP
-* Use other projection models beyond steamer
+* Use other projection models beyond Steamer
 * Utilize other historical seasons (Currently using 2024 preseason projections)
-* Summarize player performance for the simulated seasons (e.g., average stat lines for the highest performing players by position and/or category)
+* Summarize player performance for the simulated seasons (e.g., average stat lines for the highest-performing players by position and/or category)
 * Support for auction drafts.
 * Other league types (Add support for dynamic roster changes during the season).
 * Enhanced visualizations for standings and performance metrics.
