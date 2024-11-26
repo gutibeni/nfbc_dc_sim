@@ -77,6 +77,7 @@ python -m unittest test_fantasy_baseball_simulation.py
 ## Future Enhancements
 * Incorporate ADP
 * Use other projection models beyond Steamer
+* Update variability factors by category and position
 * Utilize other historical seasons (Currently using 2024 preseason projections)
 * Summarize player performance for the simulated seasons (e.g., average stat lines for the highest-performing players by position and/or category)
 * Support for auction drafts.

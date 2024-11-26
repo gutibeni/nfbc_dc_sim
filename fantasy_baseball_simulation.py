@@ -16,7 +16,7 @@ PITCHER_CATEGORIES = ["W", "SV", "K", "ERA", "WHIP"]
 NUM_WEEKS = 27
 TEAM_COUNT = 15
 ROUNDS = 50
-NUM_SIMULATIONS = 100
+NUM_SIMULATIONS = 1000
 
 
 class Player:
@@ -200,8 +200,13 @@ if __name__ == "__main__":
     simulator.load_projections()
 
     weights_list = [
-        {'HR': 1.04, 'RBI': 0.96, 'R': 0.94, 'SB': 0.96, 'AVG': 0.99, 'W': 0.7, 'SV': 0.98, 'K': 1.17, 'ERA': 1.06, 'WHIP': 1.1},
+        {'HR': 1.04, 'RBI': 0.96, 'R': 0.94, 'SB': 0.96, 'AVG': 0.99, 'W': 0.7, 'SV': 0.98, 'K': 1.17, 'ERA': 1.06,
+         'WHIP': 1.1},
+
         {'HR': 1.0, 'RBI': 1.0, 'R': 1.0, 'SB': 1.5, 'AVG': 1.0, 'W': 1.0, 'SV': 1.0, 'K': 1.2, 'ERA': 1.0, 'WHIP': 1.0},
+
+        {'HR': 1.0, 'RBI': 1.0, 'R': 1.0, 'SB': 1.0, 'AVG': 1.0, 'W': 1.0, 'SV': 1.0, 'K': 1.0, 'ERA': 1.0,
+         'WHIP': 1.0},
     ]
 
     simulator.compute_weighted_z_scores(weights_list[0])
