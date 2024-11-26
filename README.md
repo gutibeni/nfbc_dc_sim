@@ -55,8 +55,7 @@ python fantasy_baseball_simulation.py`
    * Full roto standings for all teams.
 
 ## Project Structure
-`plaintext
-.
+`.
 ├── fantasy_baseball_simulation.py  # Main simulation script
 ├── test_fantasy_baseball_simulation.py  # Unit tests
 ├── hitters_steamer_2024.csv  # Sample data (replace with real data)
