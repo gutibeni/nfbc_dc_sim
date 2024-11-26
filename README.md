@@ -25,15 +25,17 @@ use custom preseason category weights to experiment with draft strategies.
 
 ## Installation
   1. Clone the repository:
-  `bash
+  ```bash
   git clone https://github.com/yourusername/fantasy-baseball-sim.git
-cd fantasy-baseball-sim`
+cd fantasy-baseball-sim
+```
 
 
   2. Install dependencies:
-  `bash
+  ```bash
   Copy code
-  pip install -r requirements.txt`
+  pip install -r requirements.txt
+  ```
   
 ## Usage
 1. Prepare data files:
@@ -42,10 +44,12 @@ cd fantasy-baseball-sim`
       * hitters_steamer_2024.csv
       * pitchers_steamer_2024.csv
 
+
 2. Run the simulation:
-`
+```
 bash
-python fantasy_baseball_simulation.py`
+python fantasy_baseball_simulation.py
+```
 
 3. Customize weights: Modify the weights_list variable in the script to experiment with strategies.
 
@@ -55,20 +59,21 @@ python fantasy_baseball_simulation.py`
    * Full roto standings for all teams.
 
 ## Project Structure
-`plaintext
+```plaintext
 .
 ├── fantasy_baseball_simulation.py  # Main simulation script
 ├── test_fantasy_baseball_simulation.py  # Unit tests
 ├── hitters_steamer_2024.csv  # Sample data (replace with real data)
 ├── pitchers_steamer_2024.csv  # Sample data (replace with real data)
-└── README.md  # Project documentation`
+└── README.md  # Project documentation
+```
 
 # Testing
 Run unit tests with:
 
-`bash
-Copy code
-python -m unittest test_fantasy_baseball_simulation.py`
+```bash
+python -m unittest test_fantasy_baseball_simulation.py
+```
 
 ## Future Enhancements
 * Incorporate ADP
