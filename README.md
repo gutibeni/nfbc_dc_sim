@@ -60,7 +60,8 @@ python fantasy_baseball_simulation.py`
 ├── test_fantasy_baseball_simulation.py  # Unit tests
 ├── hitters_steamer_2024.csv  # Sample data (replace with real data)
 ├── pitchers_steamer_2024.csv  # Sample data (replace with real data)
-└── README.md  # Project documentation`
+└── README.md  # Project documentation
+`
 
 # Testing
 Run unit tests with:
