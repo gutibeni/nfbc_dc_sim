@@ -33,7 +33,6 @@ cd fantasy-baseball-sim
 
   2. Install dependencies:
   ```bash
-  Copy code
   pip install -r requirements.txt
   ```
   
