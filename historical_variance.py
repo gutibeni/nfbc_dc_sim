@@ -6,11 +6,12 @@ from pybaseball import batting_stats, pitching_stats, fielding_stats
 batting_categories = ["HR", "RBI", "R", "SB", "AVG"]
 pitching_categories = ["W", "SV", "SO", "ERA", "WHIP"]
 
-# Retrieve data for the last 2 years using pybaseball
-current_year = 2024  # Replace with the current year if different
-batting_data = pd.concat([batting_stats(year) for year in range(current_year - 1, current_year + 1)])
-pitching_data = pd.concat([pitching_stats(year) for year in range(current_year - 1, current_year + 1)])
-fielding_data = pd.concat([fielding_stats(year) for year in range(current_year - 1, current_year + 1)])
+# Retrieve data using pybaseball for given range
+start_year = 2022
+end_year = 2024
+batting_data = pd.concat([batting_stats(year) for year in range(start_year, end_year + 1)])
+pitching_data = pd.concat([pitching_stats(year) for year in range(start_year, end_year + 1)])
+fielding_data = pd.concat([fielding_stats(year) for year in range(start_year, end_year + 1)])
 
 
 # Filter pitching data to include relevant stats
